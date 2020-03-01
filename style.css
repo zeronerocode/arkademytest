@@ -150,3 +150,144 @@
     top: 80px;
 
 }
+
+.from{
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 10px 0px;  
+}
+
+.title {
+    position: absolute;
+    left: 518px;
+    right: 519px;
+    top: 58px;
+    bottom: 578px;
+
+    font-family: Pacifico;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 84px;
+    text-align: center;
+
+    color: #FCB371;
+}
+
+#name {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+
+    position: absolute;
+    width: 382px;
+    height: 46px;
+    left: calc(50% - 382px/2);
+    top: calc(50% - 46px/2 - 128px);
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+#email {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+
+    position: absolute;
+    width: 382px;
+    height: 46px;
+    left: calc(50% - 382px/2 + 0.5px);
+    top: calc(50% - 46px/2 - 66px);
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+#phone {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    
+    position: absolute;
+    width: 177px;
+    height: 46px;
+    left: calc(50% - 177px/2 - 102px);
+    top: calc(50% - 46px/2 - 4px);
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;  
+}
+
+#input {
+    position: static;
+    width: 350px;
+    height: 14px;
+    left: 16px;
+    top: 16px;
+
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+
+    color: #A9A9A9;
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 10px 0px;
+}
+
+#nationality {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+
+    position: absolute;
+    width: 189px;
+    height: 46px;
+    left: calc(50% - 189px/2 + 97px);
+    top: calc(50% - 46px/2 - 4px);
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+#detail{
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    
+    position: absolute;
+    width: 382px;
+    height: 116px;
+    left: calc(50% - 382px/2 + 0.5px);
+    top: calc(50% - 116px/2 + 93px);
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;  
+}
+
+.submit {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    position: absolute;
+    width: 383px;
+    height: 53px;
+    left: calc(50% - 383px/2 + 0.5px);
+    top: calc(50% - 53px/2 + 209.5px);
+
+    background: #FCB371;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
